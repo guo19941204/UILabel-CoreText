@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController">
+            <connections>
+                <outlet property="loginAction" destination="HRI-MI-pzZ" id="Q2c-MA-Se7"/>
+                <outlet property="logoImageView" destination="Smv-l5-V4d" id="mIM-my-9Fs"/>
+                <outlet property="password" destination="9ML-23-QnP" id="t2O-zI-1A3"/>
+                <outlet property="serverAction" destination="OM9-tM-mqs" id="jP8-4u-goX"/>
+                <outlet property="userName" destination="Eio-OZ-JmW" id="o5j-m1-myL"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="xUc-6M-Uec">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v9U-2m-UHW">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zmb-J9-LXx">
+                            <rect key="frame" x="372" y="234" width="280" height="300"/>
+                            <subviews>
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="账 户" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Eio-OZ-JmW" customClass="QMUITextField">
+                                    <rect key="frame" x="5" y="85.5" width="270" height="55"/>
+                                    <color key="backgroundColor" red="0.074509803921568626" green="0.074509803921568626" blue="0.074509803921568626" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="55" id="4LT-PE-PjN"/>
+                                    </constraints>
+                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="21"/>
+                                    <textInputTraits key="textInputTraits" keyboardType="namePhonePad" returnKeyType="next"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="qmui_borderWidth">
+                                            <real key="value" value="3"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </textField>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HRI-MI-pzZ" customClass="QMUIButton">
+                                    <rect key="frame" x="5" y="217.5" width="270" height="50"/>
+                                    <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="WYJ-U1-Qlx"/>
+                                        <constraint firstAttribute="width" constant="270" id="leB-Zh-yUv"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <state key="normal" title="登录">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="adjustsTitleTintColorAutomatically" value="NO"/>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="highlightedBackgroundColor">
+                                            <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="qmui_borderWidth">
+                                            <real key="value" value="5"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                    <connections>
+                                        <action selector="loginAction:" destination="-1" eventType="touchUpInside" id="SCB-1v-ikz"/>
+                                    </connections>
+                                </button>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Smv-l5-V4d">
+                                    <rect key="frame" x="65" y="10" width="150" height="60.5"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="150" id="lc5-hF-BW9"/>
+                                        <constraint firstAttribute="width" secondItem="Smv-l5-V4d" secondAttribute="height" multiplier="234:94" id="myG-GM-qY9"/>
+                                    </constraints>
+                                </imageView>
+                                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="密 码" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="9ML-23-QnP" customClass="QMUITextField">
+                                    <rect key="frame" x="5" y="142.5" width="270" height="55"/>
+                                    <color key="backgroundColor" red="0.074509803920000006" green="0.074509803920000006" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
+                                    <rect key="contentStretch" x="1" y="0.0" width="1" height="1"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="55" id="7Ri-Vl-z5c"/>
+                                    </constraints>
+                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="21"/>
+                                    <textInputTraits key="textInputTraits" keyboardType="namePhonePad" returnKeyType="done" secureTextEntry="YES"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="qmui_borderWidth">
+                                            <real key="value" value="3"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </textField>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="280" id="3md-Qa-NOl"/>
+                                <constraint firstItem="Eio-OZ-JmW" firstAttribute="centerX" secondItem="Zmb-J9-LXx" secondAttribute="centerX" id="9d4-zH-R5d"/>
+                                <constraint firstItem="HRI-MI-pzZ" firstAttribute="top" secondItem="9ML-23-QnP" secondAttribute="bottom" constant="20" id="B4h-Db-Cqo"/>
+                                <constraint firstAttribute="trailing" secondItem="Eio-OZ-JmW" secondAttribute="trailing" constant="5" id="GCi-3V-YbA"/>
+                                <constraint firstItem="Eio-OZ-JmW" firstAttribute="top" secondItem="Smv-l5-V4d" secondAttribute="bottom" constant="15" id="P9d-xX-Qzk"/>
+                                <constraint firstItem="9ML-23-QnP" firstAttribute="leading" secondItem="Zmb-J9-LXx" secondAttribute="leading" constant="5" id="ZXe-CY-YAd"/>
+                                <constraint firstItem="HRI-MI-pzZ" firstAttribute="centerX" secondItem="Zmb-J9-LXx" secondAttribute="centerX" id="Zsh-lJ-fp3"/>
+                                <constraint firstAttribute="height" constant="300" id="eO9-bD-leA"/>
+                                <constraint firstAttribute="trailing" secondItem="9ML-23-QnP" secondAttribute="trailing" constant="5" id="eTd-tq-WH0"/>
+                                <constraint firstItem="Eio-OZ-JmW" firstAttribute="leading" secondItem="Zmb-J9-LXx" secondAttribute="leading" constant="5" id="fyM-5z-93Z"/>
+                                <constraint firstItem="Smv-l5-V4d" firstAttribute="centerX" secondItem="Zmb-J9-LXx" secondAttribute="centerX" id="lJM-cB-UvF"/>
+                                <constraint firstItem="9ML-23-QnP" firstAttribute="top" secondItem="Eio-OZ-JmW" secondAttribute="bottom" constant="2" id="sK4-s5-Y30"/>
+                                <constraint firstItem="Smv-l5-V4d" firstAttribute="top" secondItem="Zmb-J9-LXx" secondAttribute="top" constant="10" id="w81-Qa-WPB"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OM9-tM-mqs" customClass="QMUIButton">
+                            <rect key="frame" x="964" y="30" width="30" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="otB-zj-idR"/>
+                                <constraint firstAttribute="width" constant="30" id="ygi-XV-Ac7"/>
+                            </constraints>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <state key="normal" image="Info"/>
+                            <connections>
+                                <action selector="serverAction:" destination="-1" eventType="touchUpInside" id="Asz-3n-L0W"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Zmb-J9-LXx" firstAttribute="centerY" secondItem="v9U-2m-UHW" secondAttribute="centerY" id="V8X-X2-GwE"/>
+                        <constraint firstAttribute="trailing" secondItem="OM9-tM-mqs" secondAttribute="trailing" constant="30" id="lPZ-23-1d6"/>
+                        <constraint firstItem="Zmb-J9-LXx" firstAttribute="centerX" secondItem="v9U-2m-UHW" secondAttribute="centerX" id="tlf-1X-Uj0"/>
+                        <constraint firstItem="OM9-tM-mqs" firstAttribute="top" secondItem="v9U-2m-UHW" secondAttribute="top" constant="30" id="ufi-rF-L7j"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="v9U-2m-UHW" secondAttribute="bottom" id="9pk-Az-EoL"/>
+                <constraint firstAttribute="trailing" secondItem="v9U-2m-UHW" secondAttribute="trailing" id="VNb-Ks-7wh"/>
+                <constraint firstItem="v9U-2m-UHW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ccE-lr-HrK"/>
+                <constraint firstItem="v9U-2m-UHW" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="efz-2g-VQk"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="Info" width="50" height="50"/>
+        <image name="bg" width="1024" height="768"/>
+        <image name="login_logo" width="234" height="94"/>
+    </resources>
+</document>

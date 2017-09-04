@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+ <key>clang_version</key>
+<string>Apple LLVM version 8.1.0 (clang-802.0.42)</string>
+ <key>files</key>
+ <array>
+  <string>/Users/guowei/Desktop/安锐达 2/安锐达/CommonVoice/webrtc_cng.c</string>
+ </array>
+ <key>diagnostics</key>
+ <array>
+  <dict>
+   <key>path</key>
+   <array>
+    <dict>
+     <key>kind</key><string>event</string>
+     <key>location</key>
+     <dict>
+      <key>line</key><integer>87</integer>
+      <key>col</key><integer>33</integer>
+      <key>file</key><integer>0</integer>
+     </dict>
+     <key>ranges</key>
+     <array>
+       <array>
+        <dict>
+         <key>line</key><integer>87</integer>
+         <key>col</key><integer>33</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+        <dict>
+         <key>line</key><integer>87</integer>
+         <key>col</key><integer>38</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+       </array>
+       <array>
+        <dict>
+         <key>line</key><integer>87</integer>
+         <key>col</key><integer>40</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+        <dict>
+         <key>line</key><integer>87</integer>
+         <key>col</key><integer>65</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+       </array>
+       <array>
+        <dict>
+         <key>line</key><integer>87</integer>
+         <key>col</key><integer>18</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+        <dict>
+         <key>line</key><integer>87</integer>
+         <key>col</key><integer>30</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+       </array>
+     </array>
+     <key>depth</key><integer>0</integer>
+     <key>extended_message</key>
+     <string>Result of &apos;malloc&apos; is converted to a pointer of type &apos;CNG_enc_inst&apos;, which is incompatible with sizeof operand type &apos;WebRtcCngEncInst_t&apos;</string>
+     <key>message</key>
+     <string>Result of &apos;malloc&apos; is converted to a pointer of type &apos;CNG_enc_inst&apos;, which is incompatible with sizeof operand type &apos;WebRtcCngEncInst_t&apos;</string>
+    </dict>
+   </array>
+   <key>description</key><string>Result of &apos;malloc&apos; is converted to a pointer of type &apos;CNG_enc_inst&apos;, which is incompatible with sizeof operand type &apos;WebRtcCngEncInst_t&apos;</string>
+   <key>category</key><string>Unix API</string>
+   <key>type</key><string>Allocator sizeof operand mismatch</string>
+   <key>check_name</key><string>unix.MallocSizeof</string>
+   <!-- This hash is experimental and going to change! -->
+   <key>issue_hash_content_of_line_in_context</key><string>b92778ef54a377780827ae5fc9eb0fde</string>
+  <key>issue_context_kind</key><string>function</string>
+  <key>issue_context</key><string>WebRtcCng_CreateEnc</string>
+  <key>issue_hash_function_offset</key><string>2</string>
+  <key>location</key>
+  <dict>
+   <key>line</key><integer>87</integer>
+   <key>col</key><integer>33</integer>
+   <key>file</key><integer>0</integer>
+  </dict>
+  </dict>
+  <dict>
+   <key>path</key>
+   <array>
+    <dict>
+     <key>kind</key><string>event</string>
+     <key>location</key>
+     <dict>
+      <key>line</key><integer>108</integer>
+      <key>col</key><integer>33</integer>
+      <key>file</key><integer>0</integer>
+     </dict>
+     <key>ranges</key>
+     <array>
+       <array>
+        <dict>
+         <key>line</key><integer>108</integer>
+         <key>col</key><integer>33</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+        <dict>
+         <key>line</key><integer>108</integer>
+         <key>col</key><integer>38</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+       </array>
+       <array>
+        <dict>
+         <key>line</key><integer>108</integer>
+         <key>col</key><integer>40</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+        <dict>
+         <key>line</key><integer>108</integer>
+         <key>col</key><integer>65</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+       </array>
+       <array>
+        <dict>
+         <key>line</key><integer>108</integer>
+         <key>col</key><integer>18</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+        <dict>
+         <key>line</key><integer>108</integer>
+         <key>col</key><integer>30</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+       </array>
+     </array>
+     <key>depth</key><integer>0</integer>
+     <key>extended_message</key>
+     <string>Result of &apos;malloc&apos; is converted to a pointer of type &apos;CNG_dec_inst&apos;, which is incompatible with sizeof operand type &apos;WebRtcCngDecInst_t&apos;</string>
+     <key>message</key>
+     <string>Result of &apos;malloc&apos; is converted to a pointer of type &apos;CNG_dec_inst&apos;, which is incompatible with sizeof operand type &apos;WebRtcCngDecInst_t&apos;</string>
+    </dict>
+   </array>
+   <key>description</key><string>Result of &apos;malloc&apos; is converted to a pointer of type &apos;CNG_dec_inst&apos;, which is incompatible with sizeof operand type &apos;WebRtcCngDecInst_t&apos;</string>
+   <key>category</key><string>Unix API</string>
+   <key>type</key><string>Allocator sizeof operand mismatch</string>
+   <key>check_name</key><string>unix.MallocSizeof</string>
+   <!-- This hash is experimental and going to change! -->
+   <key>issue_hash_content_of_line_in_context</key><string>d00a3616f4a4759638aae08c18f78960</string>
+  <key>issue_context_kind</key><string>function</string>
+  <key>issue_context</key><string>WebRtcCng_CreateDec</string>
+  <key>issue_hash_function_offset</key><string>2</string>
+  <key>location</key>
+  <dict>
+   <key>line</key><integer>108</integer>
+   <key>col</key><integer>33</integer>
+   <key>file</key><integer>0</integer>
+  </dict>
+  </dict>
+  <dict>
+   <key>path</key>
+   <array>
+    <dict>
+     <key>kind</key><string>event</string>
+     <key>location</key>
+     <dict>
+      <key>line</key><integer>528</integer>
+      <key>col</key><integer>3</integer>
+      <key>file</key><integer>0</integer>
+     </dict>
+     <key>ranges</key>
+     <array>
+       <array>
+        <dict>
+         <key>line</key><integer>528</integer>
+         <key>col</key><integer>18</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+        <dict>
+         <key>line</key><integer>528</integer>
+         <key>col</key><integer>38</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+       </array>
+     </array>
+     <key>depth</key><integer>0</integer>
+     <key>extended_message</key>
+     <string>Value stored to &apos;targetEnergy&apos; is never read</string>
+     <key>message</key>
+     <string>Value stored to &apos;targetEnergy&apos; is never read</string>
+    </dict>
+   </array>
+   <key>description</key><string>Value stored to &apos;targetEnergy&apos; is never read</string>
+   <key>category</key><string>Dead store</string>
+   <key>type</key><string>Dead assignment</string>
+   <key>check_name</key><string>deadcode.DeadStores</string>
+   <!-- This hash is experimental and going to change! -->
+   <key>issue_hash_content_of_line_in_context</key><string>1576b8fecdb8b7c79581e0e3dfd58f63</string>
+  <key>issue_context_kind</key><string>function</string>
+  <key>issue_context</key><string>WebRtcCng_Generate</string>
+  <key>issue_hash_function_offset</key><string>52</string>
+  <key>location</key>
+  <dict>
+   <key>line</key><integer>528</integer>
+   <key>col</key><integer>3</integer>
+   <key>file</key><integer>0</integer>
+  </dict>
+  </dict>
+ </array>
+</dict>
+</plist>

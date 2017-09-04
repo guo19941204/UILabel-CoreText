@@ -1,0 +1,1 @@
+/Users/guowei/Desktop/安锐达 2/DerivedData/安锐达/Build/Intermediates/ArchiveIntermediates/安锐达/InstallationBuildProductsLocation/Applications/安锐达.app

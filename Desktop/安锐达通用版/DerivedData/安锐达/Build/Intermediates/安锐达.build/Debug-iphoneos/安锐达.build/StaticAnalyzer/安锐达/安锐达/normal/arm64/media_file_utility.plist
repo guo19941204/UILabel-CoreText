@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+ <key>clang_version</key>
+<string>Apple LLVM version 8.1.0 (clang-802.0.42)</string>
+ <key>files</key>
+ <array>
+  <string>/Users/guowei/Desktop/安锐达 2/安锐达/CommonVoice/media_file_utility.cc</string>
+ </array>
+ <key>diagnostics</key>
+ <array>
+  <dict>
+   <key>path</key>
+   <array>
+    <dict>
+     <key>kind</key><string>event</string>
+     <key>location</key>
+     <dict>
+      <key>line</key><integer>505</integer>
+      <key>col</key><integer>13</integer>
+      <key>file</key><integer>0</integer>
+     </dict>
+     <key>ranges</key>
+     <array>
+       <array>
+        <dict>
+         <key>line</key><integer>505</integer>
+         <key>col</key><integer>19</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+        <dict>
+         <key>line</key><integer>505</integer>
+         <key>col</key><integer>71</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+       </array>
+     </array>
+     <key>depth</key><integer>0</integer>
+     <key>extended_message</key>
+     <string>Value stored to &apos;len&apos; is never read</string>
+     <key>message</key>
+     <string>Value stored to &apos;len&apos; is never read</string>
+    </dict>
+   </array>
+   <key>description</key><string>Value stored to &apos;len&apos; is never read</string>
+   <key>category</key><string>Dead store</string>
+   <key>type</key><string>Dead assignment</string>
+   <key>check_name</key><string>deadcode.DeadStores</string>
+   <!-- This hash is experimental and going to change! -->
+   <key>issue_hash_content_of_line_in_context</key><string>bdd437d59a7ce3009e0b9c8b80ea490e</string>
+  <key>issue_context_kind</key><string>C++ method</string>
+  <key>issue_context</key><string>ReadWavHeader</string>
+  <key>issue_hash_function_offset</key><string>61</string>
+  <key>location</key>
+  <dict>
+   <key>line</key><integer>505</integer>
+   <key>col</key><integer>13</integer>
+   <key>file</key><integer>0</integer>
+  </dict>
+  </dict>
+  <dict>
+   <key>path</key>
+   <array>
+    <dict>
+     <key>kind</key><string>event</string>
+     <key>location</key>
+     <dict>
+      <key>line</key><integer>554</integer>
+      <key>col</key><integer>13</integer>
+      <key>file</key><integer>0</integer>
+     </dict>
+     <key>ranges</key>
+     <array>
+       <array>
+        <dict>
+         <key>line</key><integer>554</integer>
+         <key>col</key><integer>25</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+        <dict>
+         <key>line</key><integer>554</integer>
+         <key>col</key><integer>28</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+       </array>
+     </array>
+     <key>depth</key><integer>0</integer>
+     <key>extended_message</key>
+     <string>Value stored to &apos;dataFound&apos; is never read</string>
+     <key>message</key>
+     <string>Value stored to &apos;dataFound&apos; is never read</string>
+    </dict>
+   </array>
+   <key>description</key><string>Value stored to &apos;dataFound&apos; is never read</string>
+   <key>category</key><string>Dead store</string>
+   <key>type</key><string>Dead assignment</string>
+   <key>check_name</key><string>deadcode.DeadStores</string>
+   <!-- This hash is experimental and going to change! -->
+   <key>issue_hash_content_of_line_in_context</key><string>50555986ad2ae7dc0ff226f4d0753b72</string>
+  <key>issue_context_kind</key><string>C++ method</string>
+  <key>issue_context</key><string>ReadWavHeader</string>
+  <key>issue_hash_function_offset</key><string>110</string>
+  <key>location</key>
+  <dict>
+   <key>line</key><integer>554</integer>
+   <key>col</key><integer>13</integer>
+   <key>file</key><integer>0</integer>
+  </dict>
+  </dict>
+  <dict>
+   <key>path</key>
+   <array>
+    <dict>
+     <key>kind</key><string>event</string>
+     <key>location</key>
+     <dict>
+      <key>line</key><integer>1320</integer>
+      <key>col</key><integer>13</integer>
+      <key>file</key><integer>0</integer>
+     </dict>
+     <key>ranges</key>
+     <array>
+       <array>
+        <dict>
+         <key>line</key><integer>1320</integer>
+         <key>col</key><integer>19</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+        <dict>
+         <key>line</key><integer>1320</integer>
+         <key>col</key><integer>33</integer>
+         <key>file</key><integer>0</integer>
+        </dict>
+       </array>
+     </array>
+     <key>depth</key><integer>0</integer>
+     <key>extended_message</key>
+     <string>Value stored to &apos;res&apos; is never read</string>
+     <key>message</key>
+     <string>Value stored to &apos;res&apos; is never read</string>
+    </dict>
+   </array>
+   <key>description</key><string>Value stored to &apos;res&apos; is never read</string>
+   <key>category</key><string>Dead store</string>
+   <key>type</key><string>Dead assignment</string>
+   <key>check_name</key><string>deadcode.DeadStores</string>
+   <!-- This hash is experimental and going to change! -->
+   <key>issue_hash_content_of_line_in_context</key><string>0ba14b1e2ee486a1791ba5ef502dac84</string>
+  <key>issue_context_kind</key><string>C++ method</string>
+  <key>issue_context</key><string>ReadPreEncodedData</string>
+  <key>issue_hash_function_offset</key><string>26</string>
+  <key>location</key>
+  <dict>
+   <key>line</key><integer>1320</integer>
+   <key>col</key><integer>13</integer>
+   <key>file</key><integer>0</integer>
+  </dict>
+  </dict>
+ </array>
+</dict>
+</plist>
